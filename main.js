@@ -20,14 +20,12 @@ for (let contador = 0; contador < listaTeclado.length; contador++) {
     if (e.code === "Space" || e.code === "Enter") {
       tecla.classList.add("ativa");
     }
-    return true;
   };
   tecla.onkeyup = function () {
     tecla.classList.remove("ativa");
   };
 
   console.log(contador);
-  
 }
 
 // CONDIÇÃO WHILE
